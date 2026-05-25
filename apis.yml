@@ -1,0 +1,126 @@
+aid: ironsource
+name: ironSource
+description: >-
+  ironSource is a Tel Aviv-based mobile game growth platform, acquired by
+  Unity Technologies in a $4.4B all-stock deal that closed in November 2022
+  and is now operated as part of Unity's Grow Solutions group. The company
+  builds an end-to-end suite for mobile game developers spanning ad
+  monetization, user acquisition, and ad operations. Its flagship product
+  LevelPlay is a unified in-app bidding and ad mediation platform that
+  brokers Rewarded Video, Interstitial, and Banner ad demand across the
+  ironSource Ads network, AdMob, AppLovin, Meta Audience Network, Pangle,
+  Mintegral, Unity Ads, Vungle, and dozens of other ad sources. ironSource
+  Ads is its self-serve ad network and user-acquisition platform offering
+  CPI, CPE, ROAS-optimized, and SKAdNetwork-aware campaign management.
+  Adjacent products include Aura (an on-device content marketplace for
+  carriers and OEMs that originated from the 2021 Bigabid/Soomla portfolio
+  and earlier hardware OEM deals), Tapjoy Offerwall (acquired 2022) for
+  rewarded engagement, and Ad Quality for ad-content monitoring. Developer
+  access is via a REST surface hosted at platform.ironsrc.com — including
+  the Monetization Reporting API (v5/v4), ironSource Ads Reporting API,
+  Application API (v6), Campaign API suite (Campaigns, Audiences, Country
+  Groups, Bidding, Assets, Creatives), SKAN Reporting API, and Cost API —
+  authenticated with Bearer tokens issued from the platform dashboard. Real
+  client integration is delivered via native SDKs (iOS, Android, Unity,
+  Flutter, React Native, Adobe AIR, Xamarin) plus the LevelPlay mediation
+  adapter ecosystem published on github.com/ironsource-mobile. As of 2026
+  the developers.is.com knowledge center 301-redirects to docs.unity.com,
+  consolidating ironSource documentation inside Unity Grow alongside Unity
+  Ads. No public OpenAPI, Postman collection, or JSON Schema bundle is
+  published by ironSource for the REST surface; documentation is
+  human-readable HTML on docs.unity.com/en-us/grow.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Mobile
+  - Mobile Games
+  - Game Development
+  - Advertising
+  - Ad Monetization
+  - Ad Mediation
+  - In-App Bidding
+  - User Acquisition
+  - LevelPlay
+  - Offerwall
+  - Programmatic
+  - SKAdNetwork
+  - Attribution
+  - SDK
+  - Unity
+url: https://raw.githubusercontent.com/api-evangelist/ironsource/refs/heads/main/apis.yml
+created: '2026-05-25'
+modified: '2026-05-25'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://www.is.com
+  - type: UnityGrow
+    url: https://unity.com/products/ironsource-ads
+  - type: Documentation
+    url: https://docs.unity.com/en-us/grow
+  - type: LevelPlay
+    url: https://docs.unity.com/en-us/grow/levelplay
+  - type: ironSourceAds
+    url: https://docs.unity.com/en-us/grow/is-ads
+  - type: UserAcquisition
+    url: https://docs.unity.com/en-us/grow/is-ads/user-acquisition
+  - type: Monetization
+    url: https://docs.unity.com/en-us/grow/is-ads/monetization
+  - type: Offerwall
+    url: https://docs.unity.com/en-us/grow/offerwall
+  - type: AdQuality
+    url: https://docs.unity.com/en-us/grow/ad-quality
+  - type: ReportingAPI
+    url: https://docs.unity.com/en-us/grow/is-ads/monetization/apis/reporting
+  - type: ApplicationAPI
+    url: https://docs.unity.com/en-us/grow/is-ads/monetization/apis/application
+  - type: CampaignAPI
+    url: https://docs.unity.com/en-us/grow/is-ads/user-acquisition/apis/ironsource-ads-management-apis
+  - type: SKANReportingAPI
+    url: https://developers.is.com/ironsource-mobile/general/skan-reporting-api/
+  - type: CostAPI
+    url: https://developers.is.com/ironsource-mobile/general/cost-api/
+  - type: Authentication
+    url: https://docs.unity.com/en-us/grow/levelplay/platform/api/authentication
+  - type: Dashboard
+    url: https://platform.ironsrc.com
+  - type: GitHubOrg
+    url: https://github.com/ironsource-mobile
+  - type: AndroidSDK
+    url: https://github.com/ironsource-mobile/android-sdk
+  - type: iOSSDK
+    url: https://github.com/ironsource-mobile/iOS-sdk
+  - type: UnitySDK
+    url: https://github.com/ironsource-mobile/Unity-sdk
+  - type: FlutterSDK
+    url: https://github.com/ironsource-mobile/Flutter-SDK
+  - type: ReactNativeSDK
+    url: https://github.com/ironsource-mobile/react-native-SDK
+  - type: XamarinSDK
+    url: https://github.com/ironsource-mobile/Xamarin-sdk
+  - type: AdobeAirSDK
+    url: https://github.com/ironsource-mobile/AdobeAir-SDK
+  - type: Blog
+    url: https://www.is.com/community
+  - type: Newsroom
+    url: https://www.is.com/community/press-release
+  - type: Pricing
+    url: https://unity.com/products/ironsource-ads
+  - type: Company
+    url: https://www.is.com/company
+  - type: Careers
+    url: https://www.is.com/community/careers
+  - type: Contact
+    url: https://www.is.com/contact
+  - type: Twitter
+    url: https://twitter.com/ironsrc
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/ironsource
+  - type: YouTube
+    url: https://www.youtube.com/@ironSource
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
