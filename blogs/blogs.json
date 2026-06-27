@@ -3,19 +3,11 @@
   "feeds": [
     {
       "source": "https://www.is.com/community",
-      "feed_url": "https://www.is.com/community",
-      "title": "",
       "saved": 0,
-      "method": "none"
-    },
-    {
-      "source": "https://github.com/ironsource-mobile/AdobeAir-SDK",
-      "feed_url": "https://github.com/ironsource-mobile/AdobeAir-SDK",
-      "title": "",
-      "saved": 0,
-      "method": "none"
+      "error": "blog redirects offsite to unity.com (acquired); no blog listing"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:50:06Z",
+  "agent_pulled": "2026-06-27"
 }
