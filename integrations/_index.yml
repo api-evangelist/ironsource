@@ -27,5 +27,5 @@
     - connectors/applications/ironsource
     vendor_link: https://www.is.com/
     builder: Fivetran
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
