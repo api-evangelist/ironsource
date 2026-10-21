@@ -29,3 +29,86 @@
     builder: Fivetran
   status: not-a-workflow
   arazzo: null
+- slug: ironsource-cocoapods-trunk
+  label: CocoaPods trunk
+  partner_name: CocoaPods trunk
+  category: iOS SDK (CocoaPods)
+  type: register
+  channel: package-registry
+  evidence: https://cocoapods.org/pods/IronSourceAPSAdapter
+  source: edge
+  relationship: distribution-channel
+  contract_reference:
+    register: CocoaPods trunk (cdn.cocoapods.org Specs; github.com/CocoaPods/Specs)
+    spec_file: null
+    role: cocoapods-publisher
+    registered_name: IronSource
+    matched_domain: is.com
+    matched_by: domain
+    pods:
+    - pod: IronSourceAPSAdapter
+      version: 5.12.0.0
+      homepage: http://www.is.com/
+      deprecated: false
+    - pod: IronSourceAdColonyAdapter
+      version: 4.3.17.4
+      homepage: http://www.is.com/
+      deprecated: false
+    - pod: IronSourceAdMobAdapter
+      version: 5.17.0.0
+      homepage: http://www.is.com/
+      deprecated: false
+    - pod: IronSourceAdQualitySDK
+      version: 9.10.0
+      homepage: http://www.is.com/
+      deprecated: false
+    - pod: IronSourceAdQualityUnityBridge
+      version: 9.10.0
+      homepage: http://www.is.com/
+      deprecated: false
+    - pod: IronSourceAmazonAdapter
+      version: 4.3.6.2
+      homepage: http://www.is.com/
+      deprecated: false
+    - pod: IronSourceAnalyticsSDK
+      version: 0.2.0.0
+      homepage: http://www.is.com/
+      deprecated: false
+    - pod: IronSourceAnalyticsiOSBridge
+      version: 0.2.0.0
+      homepage: http://www.is.com/
+      deprecated: false
+    - pod: IronSourceAppLovinAdapter
+      version: 5.9.0.0
+      homepage: http://www.is.com/
+      deprecated: false
+    - pod: IronSourceBidMachineAdapter
+      version: 5.10.0.0
+      homepage: http://www.is.com/
+      deprecated: false
+    - pod: IronSourceBigoAdapter
+      version: 5.12.0.0
+      homepage: http://www.is.com/
+      deprecated: false
+    - pod: IronSourceCSJAdapter
+      version: 4.3.31.0
+      homepage: http://www.is.com/
+      deprecated: false
+    signal_note: latest podspec homepage (domain) + authors (name); pods, versions and counts are context
+    detected_by: sweep-mobile-sdk-index.py
+    detected: '2026-10-21'
+  status: not-a-workflow
+  arazzo: null
+- slug: ironsource-google-play-developer-google-play-sdk-index
+  label: Google Play Developer (Google Play SDK Index)
+  partner: google-play
+  partner_name: Google Play Developer (Google Play SDK Index)
+  category: mobile SDK (ads, analytics, data-management, marketing-and-engagement)
+  type: marketplace
+  marketplace: Google Play SDK Index
+  channel: partner-built
+  evidence: https://play.google.com/sdks/details/com-ironsource-adqualitysdk
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
