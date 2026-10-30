@@ -1,4 +1,4 @@
-# ironsource
+# ironSource
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ironSource — game monetization, ad mediation (LevelPlay), and user acquisition (Unity-owned)
+ironSource is a Tel Aviv-based mobile game growth platform, acquired by Unity Technologies in a $4.4B all-stock deal that closed in November 2022 and is now operated as part of Unity's Grow Solutions group. The company builds an end-to-end suite for mobile game developers spanning ad monetization, user acquisition, and ad operations. Its flagship product LevelPlay is a unified in-app bidding and ad mediation platform that brokers Rewarded Video, Interstitial, and Banner ad demand across the ironSource Ads network, AdMob, AppLovin, Meta Audience Network, Pangle, Mintegral, Unity Ads, Vungle, and dozens of other ad sources. ironSource Ads is its self-serve ad network and user-acquisition platform offering CPI, CPE, ROAS-optimized, and SKAdNetwork-aware campaign management. Adjacent products include Aura (an on-device content marketplace for carriers and OEMs that originated from the 2021 Bigabid/Soomla portfolio and earlier hardware OEM deals), Tapjoy Offerwall (acquired 2022) for rewarded engagement, and Ad Quality for ad-content monitoring. Developer access is via a REST surface hosted at platform.ironsrc.com — including the Monetization Reporting API (v5/v4), ironSource Ads Reporting API, Application API (v6), Campaign API suite (Campaigns, Audiences, Country Groups, Bidding, Assets, Creatives), SKAN Reporting API, and Cost API — authenticated with Bearer tokens issued from the platform dashboard. Real client integration is delivered via native SDKs (iOS, Android, Unity, Flutter, React Native, Adobe AIR, Xamarin) plus the LevelPlay mediation adapter ecosystem published on github.com/ironsource-mobile. As of 2026 the developers.is.com knowledge center 301-redirects to docs.unity.com, consolidating ironSource documentation inside Unity Grow alongside Unity Ads. No public OpenAPI, Postman collection, or JSON Schema bundle is published by ironSource for the REST surface; documentation is human-readable HTML on docs.unity.com/en-us/grow.
+
+**Areas:** Mobile · Mobile Games · Game Development · Advertising · Ad Monetization · Ad Mediation · In-App Bidding · User Acquisition · LevelPlay · Offerwall · Programmatic · SKAdNetwork
+
+## ironSource on APIs.io
+
+Everything profiled for ironSource is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ironsource/](https://apis.io/providers/ironsource/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ironsource Domain Security](https://apis.io/security/ironsource/ironsource-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.is.com)
+- [Documentation](https://docs.unity.com/en-us/grow)
+- [Pricing](https://unity.com/products/ironsource-ads)
+- [Blog](https://www.is.com/community)
+
+## API Evangelist rating
+
+**Kin Score 7.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 10.5 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ironsource/](https://apis.io/providers/ironsource/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ironSource: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ironsource/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
